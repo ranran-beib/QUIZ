@@ -18,7 +18,7 @@ public class MataKuliah05 {
         System.out.println("Kode Mata Kuliah    : " + kodeMK);
         System.out.println("Nama Mata Kuliah    : " + namaMK);
         System.out.println("SKS                 : " + sks);
-        System.out.println("======================================================");
+        System.out.println("==================================");
     }
 
     public void ubahNamaMK(String namaMKBaru) {

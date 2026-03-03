@@ -5,7 +5,7 @@ public class Mahasiswa05 {
     MataKuliah05[] mataKuliahDiambil;
     int jumlahMK;
 
-    public Mahasiswa05(String ni, String nama, int tahun, int kapasitasMK) {
+    public Mahasiswa05(String nim, String nama, int tahun, int kapasitasMK) {
         this.nim = nim;
         this.nama = nama;
         this.tahun = tahun;
@@ -17,7 +17,9 @@ public class Mahasiswa05 {
         System.out.println("NIM                : " + nim);
         System.out.println("Nama               : " + nama);
         System.out.println("Tahun Masuk        : " + tahun);
+        System.out.println("==================================");
         System.out.println("Daftar Mata Kuliah : ");
+        System.out.println("==================================");
 
         for (int i = 0; i < jumlahMK; i++) {
             mataKuliahDiambil[i].tampilkanInfo();
