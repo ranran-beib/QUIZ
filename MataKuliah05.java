@@ -22,7 +22,7 @@ public class MataKuliah05 {
     }
 
     public void ubahNamaMK(String namaMKBaru) {
-        this.namaMK = namaMK;
+        this.namaMK = namaMKBaru;
         System.out.println("Nama mata kuliah berhasil diubah.");
     }
 
